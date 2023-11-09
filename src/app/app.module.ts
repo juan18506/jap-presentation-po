@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ViewsModule } from './views/views.module';
 
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
 
 
 
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     ViewsModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <ul class="navbar-nav">
+    <li
+      *ngFor="let navbarItem of navbarItems"
+      [routerLink]="[ navbarItem.path ]"
+      routerLinkActive="active"
+      class="nav-item cursor-pointer"
+    >
+      {{ navbarItem.name }}
+    </li>
+  </ul>
+</nav>
