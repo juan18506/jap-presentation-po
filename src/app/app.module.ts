@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { ViewsModule } from './pages/views.module';
+import { ViewsModule } from './views/views.module';
 
 import { AppComponent } from './app.component';
 

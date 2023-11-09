@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EntryPointPageComponent } from './pages/components/entry-point-page/entry-point-page.component';
-import { GoalsObjectivesPageComponent } from './pages/components/goals-objectives-page/goals-objectives-page.component';
-import { ActionPlanPageComponent } from './pages/components/action-plan-page/action-plan-page.component';
-import { ConclusionsPageComponent } from './pages/components/conclusions-page/conclusions-page.component';
+
+import { EntryPointPageComponent } from './views/pages/entry-point-page/entry-point-page.component';
+import { GoalsObjectivesPageComponent } from './views/pages/goals-objectives-page/goals-objectives-page.component';
+import { ActionPlanPageComponent } from './views/pages/action-plan-page/action-plan-page.component';
+import { ConclusionsPageComponent } from './views/pages/conclusions-page/conclusions-page.component';
 
 
 
@@ -17,7 +18,7 @@ const routes: Routes = [
     component: GoalsObjectivesPageComponent,
   },
   {
-    path: 'goals-objectives',
+    path: 'action-plan',
     component: ActionPlanPageComponent,
   },
   {

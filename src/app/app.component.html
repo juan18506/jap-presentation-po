@@ -3,16 +3,32 @@
   <header>
     <nav class="navbar">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li
+          routerLink="entry-point"
+          routerLinkActive="active"
+          class="nav-item"
+        >
           <a href="#" class="nav-link">Punto de Partida</a>
         </li>
-        <li class="nav-item">
+        <li
+          routerLink="goals-objectives"
+          routerLinkActive="active"
+          class="nav-item"
+        >
           <a href="#" class="nav-link">Metas y Objetivos</a>
         </li>
-        <li class="nav-item">
+        <li
+          routerLink="action-plan"
+          routerLinkActive="active"
+          class="nav-item"
+        >
           <a href="#" class="nav-link">Plan de Acción</a>
         </li>
-        <li class="nav-item">
+        <li
+          routerLink="conclusions"
+          routerLinkActive="active"
+          class="nav-item"
+          >
           <a href="#" class="nav-link">Reflexión de Cierre</a>
         </li>
       </ul>
@@ -20,8 +36,7 @@
   </header>
 
   <main class="flex-fill">
-    <h1>hola</h1>
-
+    <router-outlet></router-outlet>
   </main>
 
 </div>
